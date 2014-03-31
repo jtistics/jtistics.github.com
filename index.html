@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="reveal.js/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="jtistics.css"/>
+  <link rel="stylesheet" media="print" href="reveal.js/css/print/pdf.css" />
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="jtistics" class="slide level1">
+<h1>jtistics</h1>
+<p><em>plan, supervise, and analyse</em></p>
+<p><em>clinical trials and experimental protocols</em></p>
+<div class="authors">
+sandra.pal<span style="display: none;">null</span>us@ch<span style="display: none;">nada</span>arite.de | arne.h<span style="display: none;">no</span>ilmann@t<span style="display: none;">ney</span>-online.de
+</div>
+</section>
+<section id="expertise" class="slide level1">
+<h1>Expertise</h1>
+<ul>
+<li><p>5000+ cases</p></li>
+<li><p>7 protocols</p></li>
+<li><p>4 models: cancer cachexia, heart insufficiency, amyotrophic lateral sclerosis, stroke</p></li>
+<li><p>200+ treatment groups</p></li>
+<li><p>8+ years in-field expertise</p></li>
+</ul>
+</section>
+<section id="key-features" class="slide level1">
+<h1>Key Features</h1>
+<ul>
+<li><p>handles a broad range of clinical analyses</p></li>
+<li><p>enables you to define protocols and cases clearly</p></li>
+<li><p>keeps track of treatment groups, assists with randomization</p></li>
+<li><p>generates task plans for every day and analysis</p></li>
+<li><p>allows early consistency check of gathered data</p></li>
+<li><p>performs fast statistical analyses, allowing early intervention</p></li>
+</ul>
+</section>
+<section id="additional-features" class="slide level1">
+<h1>Additional Features</h1>
+<ul>
+<li><p>uses simple spradsheets as user frontend</p></li>
+<li><p>data and executables fit on normal usb drive</p></li>
+<li><p>task plans are meant to be taken to the animal facility</p></li>
+<li><p>modular architecture allows integration of new data sources</p></li>
+<li><p>has a 1-click-interface</p></li>
+</ul>
+</section>
+<section id="phase-1-planing" class="slide level1">
+<h1>Phase 1: Planing</h1>
+<p><img src="res/data-aquisition.svg" width="600px"/></p>
+</section>
+<section id="supported-clinical-analyses" class="slide level1">
+<h1>Supported Clinical Analyses</h1>
+<ul>
+<li><p>locomotor activity</p></li>
+<li><p>echocardiography</p></li>
+<li><p>body weight</p></li>
+<li><p>food intake</p></li>
+<li><p>histology</p></li>
+<li><p>nmr</p></li>
+</ul>
+</section>
+<section id="technical-details" class="slide level1">
+<h1>Technical Details</h1>
+<p>supports a variety of platforms (Windows, Linux, MacOS)</p>
+<p>data integrity ensured by database schema</p>
+<p>underlying sql database allows easy data access for other tools</p>
+</section>
+<section id="phase-2-data-integrationanalysis" class="slide level1">
+<h1>Phase 2: Data Integration/Analysis</h1>
+<p><img src="res/data-analysis.svg" width="600px"/></p>
+</section>
+<section id="statistical-analyses" class="slide level1">
+<h1>Statistical Analyses</h1>
+<ul>
+<li><p>significance tests</p></li>
+<li><p>regression tests</p></li>
+<li><p>multipanel plots</p></li>
+<li><p>linear models</p></li>
+<li><p>correlations</p></li>
+<li><p>survival</p></li>
+</ul>
+</section>
+<section id="software-details" class="slide level1">
+<h1>Software Details</h1>
+<p>LibreOffice (frontend interface)</p>
+<p>Java, Python (data im-/export)</p>
+<p>ant (flow control)</p>
+<p>R (statistical analyses)</p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
+        backgroundTransition: 'slide', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+  </body>
+</html>
