@@ -1,9 +1,26 @@
+@font-face {
+    font-family: 'texgyrescholaregular';
+    src: url('../fonts/texgyreschola-regular-webfont.eot');
+    src: url('../fonts/texgyreschola-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/texgyreschola-regular-webfont.woff') format('woff'),
+        url('../fonts/texgyreschola-regular-webfont.ttf') format('truetype'),
+        url('../fonts/texgyreschola-regular-webfont.svg#texgyrescholaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  height: 100%;
+}
+
 body {
-  #font-family: "Liberation Sans", "Helvetica", "Arial", sans-serif;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  #font-family: serif;
-  font-size: 36px;
-  color: rgb(48, 48, 96);
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-family: "texgyrescholaregular", serif;
+  margin: 0;
+  color: #444;
+  background-color: #ddd;
+  font-size: 24px;
 }
 
 .reveal h1 {
@@ -77,3 +94,6 @@ section > ul > li > p:before {
   font-style: italic;
   text-align: center;
 }
+
+
+
